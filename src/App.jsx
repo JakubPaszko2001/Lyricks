@@ -13,7 +13,6 @@ import {
 
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
-  console.log(activeSong);
 
   return (
     <div className="relative flex">
